@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16254F82-E54B-4153-9445-5E79C3A16853}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reflex.API", "reflex.API", "{4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reflex.API", "src\reflex.API\reflex.API\reflex.API.csproj", "{2F304E51-6F55-4F9E-B289-D922C3C04803}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F304E51-6F55-4F9E-B289-D922C3C04803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F304E51-6F55-4F9E-B289-D922C3C04803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F304E51-6F55-4F9E-B289-D922C3C04803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F304E51-6F55-4F9E-B289-D922C3C04803}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3} = {16254F82-E54B-4153-9445-5E79C3A16853}
+		{2F304E51-6F55-4F9E-B289-D922C3C04803} = {4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C20E0CDB-5830-4B31-805A-B829030B3CF9}
+	EndGlobalSection
+EndGlobal
