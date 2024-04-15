@@ -34,3 +34,7 @@
 /Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.API/obj/Debug/net8.0/reflex.API.pdb
 /Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.API/obj/Debug/net8.0/reflex.API.genruntimeconfig.cache
 /Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.API/obj/Debug/net8.0/ref/reflex.API.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.API/bin/Debug/net8.0/reflex.Application.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.API/bin/Debug/net8.0/reflex.Domain.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.API/bin/Debug/net8.0/reflex.Application.pdb
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.API/bin/Debug/net8.0/reflex.Domain.pdb

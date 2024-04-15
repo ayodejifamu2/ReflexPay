@@ -15,4 +15,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\reflex.Application\reflex.Application.csproj" />
+  </ItemGroup>
+
 </Project>

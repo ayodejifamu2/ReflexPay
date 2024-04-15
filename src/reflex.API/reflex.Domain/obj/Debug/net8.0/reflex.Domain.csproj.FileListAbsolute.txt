@@ -1,0 +1,12 @@
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/bin/Debug/net8.0/reflex.Domain.deps.json
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/bin/Debug/net8.0/reflex.Domain.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/bin/Debug/net8.0/reflex.Domain.pdb
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/reflex.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/reflex.Domain.AssemblyInfoInputs.cache
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/reflex.Domain.AssemblyInfo.cs
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/reflex.Domain.csproj.CoreCompileInputs.cache
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/reflex.Domain.sourcelink.json
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/reflex.Domain.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/refint/reflex.Domain.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/reflex.Domain.pdb
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/Debug/net8.0/ref/reflex.Domain.dll

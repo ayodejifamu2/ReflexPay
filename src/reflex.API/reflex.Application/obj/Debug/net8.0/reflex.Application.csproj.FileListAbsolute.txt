@@ -1,0 +1,16 @@
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/bin/Debug/net8.0/reflex.Application.deps.json
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/bin/Debug/net8.0/reflex.Application.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/bin/Debug/net8.0/reflex.Application.pdb
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/bin/Debug/net8.0/reflex.Domain.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/bin/Debug/net8.0/reflex.Domain.pdb
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.csproj.AssemblyReference.cache
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.AssemblyInfoInputs.cache
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.AssemblyInfo.cs
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.csproj.CoreCompileInputs.cache
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.sourcelink.json
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.csproj.CopyComplete
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/refint/reflex.Application.dll
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/reflex.Application.pdb
+/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/Debug/net8.0/ref/reflex.Application.dll

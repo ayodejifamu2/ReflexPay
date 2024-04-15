@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Persistence/reflex.Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/reflex.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/reflex.Application.csproj",
+        "projectName": "reflex.Application",
+        "projectPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/reflex.Application.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/reflex.Domain.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/reflex.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/reflex.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/reflex.Domain.csproj",
+        "projectName": "reflex.Domain",
+        "projectPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/reflex.Domain.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Persistence/reflex.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Persistence/reflex.Persistence.csproj",
+        "projectName": "reflex.Persistence",
+        "projectPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Persistence/reflex.Persistence.csproj",
+        "packagesPath": "/Users/ayodejifamuwagun/.nuget/packages/",
+        "outputPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ayodejifamuwagun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/reflex.Application.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Application/reflex.Application.csproj"
+              },
+              "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/reflex.Domain.csproj": {
+                "projectPath": "/Users/ayodejifamuwagun/Reflex/ReflexPay/src/reflex.API/reflex.Domain/reflex.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

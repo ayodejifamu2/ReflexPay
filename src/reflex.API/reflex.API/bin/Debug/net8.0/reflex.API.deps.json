@@ -9,7 +9,8 @@
       "reflex.API/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.InMemory": "8.0.4",
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "reflex.Application": "1.0.0"
         },
         "runtime": {
           "reflex.API.dll": {}
@@ -133,6 +134,19 @@
             "assemblyVersion": "6.4.0.0",
             "fileVersion": "6.4.0.0"
           }
+        }
+      },
+      "reflex.Application/1.0.0": {
+        "dependencies": {
+          "reflex.Domain": "1.0.0"
+        },
+        "runtime": {
+          "reflex.Application.dll": {}
+        }
+      },
+      "reflex.Domain/1.0.0": {
+        "runtime": {
+          "reflex.Domain.dll": {}
         }
       }
     }
@@ -268,6 +282,16 @@
       "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    },
+    "reflex.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "reflex.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
