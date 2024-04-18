@@ -2,5 +2,5 @@
 
 public class PolicyType : BaseEntity
 {
-    public string policyTypeName { get; set; }
+    public string? policyTypeName { get; set; }
 }

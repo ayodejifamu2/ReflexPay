@@ -29,4 +29,16 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+    [HttpPost("dateformatting")]
+    public IActionResult Post([FromBody] payload item)
+    {
+        var p = Convert.ToDateTime(item.date);
+        return Ok(Convert.ToDateTime(item.date).ToString("MM/dd/yyyy"));
+    }
+
+}
+
+ public class payload{
+        public string date { get; set; }
 }

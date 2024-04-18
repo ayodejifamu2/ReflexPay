@@ -2,7 +2,7 @@
 
 public class Otp : BaseEntity
 {
-    public string otp { get; set; }
+    public string? otp { get; set; }
     public DateTime createdAt { get; set; }
     public DateTime ExpiresAt { get; set; }
     public OtpType otpType { get; set; }

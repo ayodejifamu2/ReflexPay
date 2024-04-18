@@ -6,10 +6,10 @@ public class Customer : BaseEntity
     //profile
     public string? customerPhoneNumber { get; set; }
     public string? emailAddress { get; set; }
-    public string userName { get; set; }
-    public string firstName { get; set; }
-    public string lastName { get; set; }
-    public string customerSex { get; set; }
+    public char userName { get; set; }
+    public char firstName { get; set; }
+    public char lastName { get; set; }
+    public char customerSex { get; set; }
 
     //profile verification
     public bool isEmailVerified { get; set; }
@@ -30,7 +30,7 @@ public class Customer : BaseEntity
 
     //transaction pin
     public bool isTPinSet { get; set; }
-    public string transactionPin { get; set; }
+    public string? transactionPin { get; set; }
     public DateTime transactionPinCreatedAt { get; set; }
     public DateTime transactionPinUpdateAt { get; set; }
     public int wrongTPinCount { get; set; }
@@ -39,7 +39,7 @@ public class Customer : BaseEntity
 
     //login pin
     public bool isLPinSet { get; set; }
-    public string loginPin { get; set; }
+    public string? loginPin { get; set; }
     public DateTime loginPinCreatedAt { get; set; }
     public DateTime loginPinUpdateAt { get; set; }
     public int wrongLPinCount { get; set; }
@@ -47,15 +47,12 @@ public class Customer : BaseEntity
     public DateTime loginPinBlockedDate { get; set; }
 
     //other profile details
-    public string customerAddress { get; set; }
+    public string? customerAddress { get; set; }
     public DateTime addressCreatedAt { get; set; }
     public DateTime addressUpdatedAt { get; set; }
     public int addressUpdateCount { get; set; }
     public int customerCountryId { get; set; }
     public int customerStateId { get; set; }
-
-
-
 }
 
 

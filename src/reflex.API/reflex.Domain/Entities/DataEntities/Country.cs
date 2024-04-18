@@ -2,6 +2,6 @@
 
 public class Country : BaseEntity
 {
-    public string country { get; set; }
-    public string countryCode { get; set; }
+    public string? country { get; set; }
+    public string? countryCode { get; set; }
 }
