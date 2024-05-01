@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16254F82-E54B-4153-9445-5E79C3A16853}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reflex.API", "reflex.API", "{4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "reflex.API", "src\reflex.API\reflex.API\reflex.API.csproj", "{2F304E51-6F55-4F9E-B289-D922C3C04803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflex.Application", "src\reflex.API\reflex.Application\reflex.Application.csproj", "{89893D56-6654-40B1-88D1-C877428F3FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflex.Domain", "src\reflex.API\reflex.Domain\reflex.Domain.csproj", "{46BD90A2-77CC-4D91-9E71-E173FBCFD77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflex.Persistence", "src\reflex.API\reflex.Persistence\reflex.Persistence.csproj", "{31FDBCF3-325B-4E2C-8CB2-7611AD9239A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflex.Infrastructure", "src\reflex.API\reflex.Infrastructure\reflex.Infrastructure.csproj", "{FE2110AC-8172-4C0F-84B9-490E591849B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F304E51-6F55-4F9E-B289-D922C3C04803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F304E51-6F55-4F9E-B289-D922C3C04803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F304E51-6F55-4F9E-B289-D922C3C04803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F304E51-6F55-4F9E-B289-D922C3C04803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89893D56-6654-40B1-88D1-C877428F3FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89893D56-6654-40B1-88D1-C877428F3FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89893D56-6654-40B1-88D1-C877428F3FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89893D56-6654-40B1-88D1-C877428F3FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BD90A2-77CC-4D91-9E71-E173FBCFD77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BD90A2-77CC-4D91-9E71-E173FBCFD77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BD90A2-77CC-4D91-9E71-E173FBCFD77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BD90A2-77CC-4D91-9E71-E173FBCFD77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FDBCF3-325B-4E2C-8CB2-7611AD9239A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FDBCF3-325B-4E2C-8CB2-7611AD9239A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FDBCF3-325B-4E2C-8CB2-7611AD9239A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FDBCF3-325B-4E2C-8CB2-7611AD9239A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2110AC-8172-4C0F-84B9-490E591849B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2110AC-8172-4C0F-84B9-490E591849B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2110AC-8172-4C0F-84B9-490E591849B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2110AC-8172-4C0F-84B9-490E591849B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3} = {16254F82-E54B-4153-9445-5E79C3A16853}
+		{2F304E51-6F55-4F9E-B289-D922C3C04803} = {4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3}
+		{89893D56-6654-40B1-88D1-C877428F3FDB} = {4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3}
+		{46BD90A2-77CC-4D91-9E71-E173FBCFD77E} = {4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3}
+		{31FDBCF3-325B-4E2C-8CB2-7611AD9239A9} = {4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3}
+		{FE2110AC-8172-4C0F-84B9-490E591849B8} = {4DC0EE77-C4A7-4ADA-8BFD-09F4A7B9D0B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C20E0CDB-5830-4B31-805A-B829030B3CF9}
+	EndGlobalSection
+EndGlobal

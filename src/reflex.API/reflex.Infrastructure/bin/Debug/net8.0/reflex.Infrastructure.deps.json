@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "reflex.Infrastructure/1.0.0": {
+        "dependencies": {
+          "reflex.Domain": "1.0.0"
+        },
+        "runtime": {
+          "reflex.Infrastructure.dll": {}
+        }
+      },
+      "reflex.Domain/1.0.0": {
+        "runtime": {
+          "reflex.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "reflex.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "reflex.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

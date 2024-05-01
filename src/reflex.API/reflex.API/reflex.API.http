@@ -1,0 +1,6 @@
+@reflex.API_HostAddress = http://localhost:5170
+
+GET {{reflex.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

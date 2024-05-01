@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\bin\Debug\net8.0\reflex.Infrastructure.deps.json
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\bin\Debug\net8.0\reflex.Infrastructure.dll
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\bin\Debug\net8.0\reflex.Infrastructure.pdb
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\bin\Debug\net8.0\reflex.Domain.dll
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\bin\Debug\net8.0\reflex.Domain.pdb
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.Infrastructure.sourcelink.json
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.I.2BF031F3.Up2Date
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.Infrastructure.dll
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\refint\reflex.Infrastructure.dll
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\reflex.Infrastructure.pdb
+C:\Users\Administrator\source\repos\ReflexPay\src\reflex.API\reflex.Infrastructure\obj\Debug\net8.0\ref\reflex.Infrastructure.dll
