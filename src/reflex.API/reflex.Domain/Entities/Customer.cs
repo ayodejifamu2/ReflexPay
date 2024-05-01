@@ -6,9 +6,9 @@ public class Customer : BaseEntity
     //profile
     public string? customerPhoneNumber { get; set; }
     public string? emailAddress { get; set; }
-    public char userName { get; set; }
-    public char firstName { get; set; }
-    public char lastName { get; set; }
+    public string userName { get; set; }
+    public string firstName { get; set; }
+    public string lastName { get; set; }
     public char customerSex { get; set; }
 
     //profile verification
@@ -19,7 +19,7 @@ public class Customer : BaseEntity
 
     //sign up details
     public bool isPasswordSet { get; set; } = false;
-    public HashCode userPassword { get; set; }
+    public string? userPassword { get; set; }
     public DateTime passwordCreatedAt { get; set; }
     public DateTime passwordUpdatedAt { get; set; }
     public DateTime lastLogin { get; set; }
@@ -60,5 +60,4 @@ public class Customer : BaseEntity
 public enum loginType{
     pinOtpVerification = 1,
     passwordOtpVerification
-
 }
