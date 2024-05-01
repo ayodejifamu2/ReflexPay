@@ -6,6 +6,7 @@ public class Otp : BaseEntity
     public DateTime createdAt { get; set; }
     public DateTime ExpiresAt { get; set; }
     public OtpType otpType { get; set; }
+    public int userId { get; set; }
 }
 
 
