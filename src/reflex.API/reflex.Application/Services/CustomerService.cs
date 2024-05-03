@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -194,5 +195,37 @@ namespace reflex.Application.Services
             return res;
         }
 
+        public async Task<BaseResponse> Unlock(string userId, string pin)
+        {
+            BaseResponse res = new();
+            var user = await _customerRepository.GetByIdAsync(userId);  
+            if (user == null)
+            {
+                res.Status = true;
+                res.ResponseCode = HttpStatusCode.NotFound.ToString();
+                res.Message = "Login Failed, User Does not Exist";
+                return res;
+            }
+
+            if (PasswordHasher.Verify(pin, user.loginPin) == false)
+            {
+                user.failedLoginAttempt = 1 + user.failedLoginAttempt; //check to know when to block pin
+                await _customerRepository.Update(user);
+                res.Status = true;
+                res.ResponseCode = HttpStatusCode.Forbidden.ToString();
+                res.Message = "Login Failed, Invalid Pin";
+                return res;
+            }
+            user.isLoggedIn = true;
+            user.lastLoginType = loginType.pinOtpVerification;
+            user.lastLogin = DateTime.Now;
+            await _customerRepository.Update(user);
+            res.Message = "Success";
+            res.data = user;
+            res.ResponseCode = HttpStatusCode.OK.ToString();
+            res.Status = true;
+            return res;
+
+        }
     }
 }

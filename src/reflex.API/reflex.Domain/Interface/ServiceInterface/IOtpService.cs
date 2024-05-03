@@ -11,8 +11,8 @@ namespace reflex.Domain.Interface.ServiceInterface
     public interface IOtpService 
     {
         Task<BaseResponse> VerifyKYC(string userId, KycDTO kycInfo);
-        Task<BaseResponse> VerifyPhoneNumber(string phoneNumber, string verificationCode);
-        Task<BaseResponse> VerifyEmail(string email, string verificationCode);
+        Task<BaseResponse> VerifyPhoneNumber(string phoneNumber);
+        Task<BaseResponse> VerifyEmail(string email);
         Task<BaseResponse> VerifyOtp(int userId, OtpType otptype, string otp);
     }
 }
