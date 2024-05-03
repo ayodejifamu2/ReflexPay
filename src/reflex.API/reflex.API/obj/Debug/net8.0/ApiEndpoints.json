@@ -95,6 +95,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "reflex.API.Controllers.AuthController",
+    "Method": "Unlock",
+    "RelativePath": "api/Auth/Unlock/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pin",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "reflex.API.Controllers.VerifyController",
     "Method": "ConfirmOtp",
     "RelativePath": "api/Verify/confirmOtp/{userId}",
@@ -122,6 +143,22 @@
   },
   {
     "ContainingType": "reflex.API.Controllers.VerifyController",
+    "Method": "VerifyEmailAddress",
+    "RelativePath": "api/Verify/VerifyEmailAddress/{emailAddress}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailAddress",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "reflex.API.Controllers.VerifyController",
     "Method": "VerifyPhoneNumber",
     "RelativePath": "api/Verify/VerifyPhoneNumber/{phoneNumber}",
     "HttpMethod": "POST",
@@ -132,11 +169,6 @@
         "Name": "phoneNumber",
         "Type": "System.String",
         "IsRequired": true
-      },
-      {
-        "Name": "verificationCode",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

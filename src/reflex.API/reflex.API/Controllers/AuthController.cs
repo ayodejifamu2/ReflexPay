@@ -53,6 +53,13 @@ namespace reflex.API.Controllers
             return Ok(res);
         }
 
+        [HttpPost("Unlock/{userId}")]
+        public async Task<IActionResult> Unlock(string userId, [Required] string pin)
+        {
+            var res = await _customerService.Unlock(userId, pin);
+            return Ok(res);
+        }
+
 
     }
 }

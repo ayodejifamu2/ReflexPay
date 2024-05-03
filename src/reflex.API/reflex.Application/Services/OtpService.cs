@@ -1,4 +1,5 @@
-﻿using reflex.Domain;
+﻿using reflex.Application.Utilities;
+using reflex.Domain;
 using reflex.Domain.DTO;
 using reflex.Domain.Interface;
 using reflex.Domain.Interface.ServiceInterface;
@@ -7,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,9 +25,35 @@ namespace reflex.Application.Services
         }
 
         
-        public Task<BaseResponse> VerifyEmail(string email, string verificationCode)
+        public async Task<BaseResponse> VerifyEmail(string email)
         {
-            throw new NotImplementedException();
+            BaseResponse res = new();
+            var users = await _custRepo.FindAsync(x => x.emailAddress == email);
+            if (users == null)
+            {
+                res.Status = true;
+                res.ResponseCode = HttpStatusCode.NotFound.ToString();
+                res.Message = "No Customer Found";
+                return res;
+            }
+            var user = users.FirstOrDefault();
+
+            Otp otp = new Otp()
+            {
+                createdAt = DateTime.Now,
+                ExpiresAt = DateTime.Now.AddMinutes(5),
+                otp = Extension.GenerateOTP(),
+                otpType = OtpType.emailVerification,
+                userId = user.id
+            };
+            //An Email Serices that Sends the Otp
+            await _repository.AddAsync(otp);
+            res.Message = "Success";
+            res.data = otp;
+            res.ResponseCode = HttpStatusCode.OK.ToString();
+            res.Status = true;
+            return res;
+
         }
 
         public Task<BaseResponse> VerifyKYC(string userId, KycDTO kycInfo)
@@ -67,6 +95,9 @@ namespace reflex.Application.Services
                 res.Message = "Invalid Otp";
                 return res;
             }
+
+            //update the Otp Information
+            await UpdateOtpType(users, otptype);
             res.Message = "Success";
             res.data = true;
             res.ResponseCode = HttpStatusCode.OK.ToString();
@@ -74,7 +105,7 @@ namespace reflex.Application.Services
             return res;
         }
 
-        public async Task<BaseResponse> VerifyPhoneNumber(string phoneNumber, string verificationCode)
+        public async Task<BaseResponse> VerifyPhoneNumber(string phoneNumber)
         {
             BaseResponse res = new();
             var users = await _custRepo.FindAsync(x => x.customerPhoneNumber == phoneNumber);
@@ -86,30 +117,42 @@ namespace reflex.Application.Services
                 return res;
             }
             var user = users.FirstOrDefault();
-            //Mock Verification Service
-            //
-            if (verificationCode != "123456")
-            {
-                res.Status = true;
-                res.ResponseCode = HttpStatusCode.BadRequest.ToString();
-                res.Message = "Invalid Verification Code, Verification Failed";
-                return res;
-            }
+
             Otp otp = new Otp()
             {
                 createdAt = DateTime.Now,
                 ExpiresAt = DateTime.Now.AddMinutes(5),
-                otp = "123456",
+                otp = Extension.GenerateOTP(),
                 otpType = OtpType.phoneNumberVerification,
                 userId = user.id
             };
-
             await _repository.AddAsync(otp);
             res.Message = "Success";
             res.data = otp;
             res.ResponseCode = HttpStatusCode.OK.ToString();
             res.Status = true;
             return res;
+        }
+
+        private async Task UpdateOtpType(Customer cust, OtpType otp)
+        {
+            if (otp == OtpType.emailVerification)
+            {
+                cust.emailVerifiedDate = DateTime.Now;
+                cust.isEmailVerified = true;
+                await _custRepo.Update(cust);
+            }
+            else if (otp == OtpType.phoneNumberVerification)
+            {
+                cust.phoneNumVerifiedDate = DateTime.Now;
+                cust.isPhoneNumVerified = true;
+                await _custRepo.Update(cust);
+            }
+            else if (otp == OtpType.passwordReset)
+            {
+                cust.passwordUpdatedAt = DateTime.Now;
+                await _custRepo.Update(cust);
+            }
         }
     }
 }

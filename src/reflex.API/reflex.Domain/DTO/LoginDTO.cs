@@ -9,6 +9,5 @@ namespace reflex.Domain.DTO
     public class LoginDTO
     {
         public string PhoneNumber { get; set; } 
-        public OtpType otpType { get; set; }
     }
 }

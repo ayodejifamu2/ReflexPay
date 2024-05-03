@@ -20,11 +20,20 @@ namespace reflex.API.Controllers
         }
 
         [HttpPost("VerifyPhoneNumber/{phoneNumber}")]
-        public async Task<IActionResult> VerifyPhoneNumber(string phoneNumber, string verificationCode)
+        public async Task<IActionResult> VerifyPhoneNumber(string phoneNumber)
         {
-            var res = await _otpService.VerifyPhoneNumber(phoneNumber, verificationCode);
+            var res = await _otpService.VerifyPhoneNumber(phoneNumber);
             return Ok(res);
         }
+
+
+        [HttpPost("VerifyEmailAddress/{emailAddress}")]
+        public async Task<IActionResult> VerifyEmailAddress(string emailAddress)
+        {
+            var res = await _otpService.VerifyEmail(emailAddress);
+            return Ok(res);
+        }
+
 
         [HttpPost("confirmOtp/{userId}")]
         public async Task<IActionResult> ConfirmOtp(int userId, string otp, OtpType otptype)

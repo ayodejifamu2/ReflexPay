@@ -16,6 +16,8 @@ namespace reflex.Domain.Interface.ServiceInterface
         Task<BaseResponse> AddCard(int userId, CardDTO cardInfo);
         Task<BaseResponse> Signup(SignUpDTO model);
         Task<BaseResponse> Login(LoginDTO model);
+
+        Task<BaseResponse> Unlock(string userId, string pin);
         
     }
 }
